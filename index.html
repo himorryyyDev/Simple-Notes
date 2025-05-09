@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Simple Notes</title>
+		<link rel="stylesheet" href="./assets/css/styles.css" />
+		<link rel="stylesheet" href="./assets/css/default.css" />
+		<script src="./assets/js/script.js" defer></script>
+	</head>
+	<body>
+		<header>
+			<section class="header"></section>
+			<h1 class="title-text">Simple Notes</h1>
+		</header>
+		<main>
+			<section class="new-note">
+				<h2>Создать заметку</h2>
+				<input type="text" id="note-title" placeholder="Заголовок" />
+				<textarea
+					id="note-content"
+					placeholder="Введите текст заметки..."
+				></textarea>
+				<button id="add-note">Добавить</button>
+			</section>
+
+			<section class="notes-list">
+				<h2>Мои заметки</h2>
+				<div id="notes-container"></div>
+			</section>
+		</main>
+	</body>
+</html>
